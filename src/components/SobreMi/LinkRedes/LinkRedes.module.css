@@ -1,0 +1,20 @@
+.container__red {
+    padding-right: 1rem;
+    cursor: pointer;
+    display: inline;
+}
+
+.red {
+    background-color: rgba(105, 90, 138, 0.3);
+    border-radius: 2px;
+
+    font-size: 16px;
+    font-weight: 500;
+    padding: 7px;
+    letter-spacing: 1px;
+}
+
+.container__red:hover {
+    color: rgb(72, 58, 101);
+    transition: 0.4s;
+}

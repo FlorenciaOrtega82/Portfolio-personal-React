@@ -1,0 +1,13 @@
+.presentacion {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.nombre {
+    color: rgb(105, 90, 138);
+}
+
+.info__text {
+    font-size: 18px;
+}

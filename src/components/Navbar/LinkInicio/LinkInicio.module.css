@@ -1,0 +1,11 @@
+.link {
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.link:hover {
+    color: rgb(105, 90, 138);
+    transition: 0.4s;
+}
