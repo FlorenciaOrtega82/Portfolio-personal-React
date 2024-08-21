@@ -9,6 +9,7 @@ const Navbar = () => {
             <LinkInicio seccion="Formación" />
             <LinkInicio seccion="Proyectos" />
             <LinkInicio seccion="Contacto" />
+            {/* //TODO Añadir links a las distintas secciones de la pagina */}
         </div>
     );
 };

@@ -13,7 +13,7 @@ const SobreMi = () => {
                 web cautivadoras. Experta en HTML, CSS, JavaScript y React, en
                 busca de proyectos desafiantes.
             </p>
-
+            {/* //TODO Añadir links a las distintas redes sociales  */}
             <LinkRedes red="Github" />
             <LinkRedes red="Linkedin" />
             <LinkRedes red="Curriculum" />
