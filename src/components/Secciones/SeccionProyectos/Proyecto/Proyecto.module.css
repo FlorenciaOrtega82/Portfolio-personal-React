@@ -1,0 +1,52 @@
+.proyecto__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgba(105, 90, 138, 0.245);
+    margin-top: 1rem;
+    padding: 10px;
+    border-radius: 2%;
+}
+
+.proyecto__miniatura {
+    max-height: 10rem;
+    max-width: 25rem;
+    margin-right: 4rem;
+}
+
+.container__contenido {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.proyecto__descripcion {
+    font-size: 15px;
+}
+
+.boton__repositorio {
+    cursor: pointer;
+    padding: 5px;
+    margin-top: 1rem;
+    border-radius: 2px;
+    font-weight: bolder;
+    margin-right: 5px;
+    border: 0.7px solid rebeccapurple;
+    color: rebeccapurple;
+}
+
+.boton__repositorio:hover,
+.boton__demo:hover {
+    border: 1px solid rgb(155, 74, 236);
+    color: rgb(37, 33, 45);
+    transition: 0.4s;
+}
+
+.boton__demo {
+    border: 0.7px solid rebeccapurple;
+    cursor: pointer;
+    padding: 5px;
+    margin-top: 1rem;
+    border-radius: 2px;
+    background-color: rebeccapurple;
+    color: white;
+}
