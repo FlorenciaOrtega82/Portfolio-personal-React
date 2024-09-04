@@ -7,7 +7,7 @@ import org from "./image/org-app.png";
 
 const SeccionProyecto = () => {
     return (
-        <>
+        <section id="proyectos">
             <Titulo titulo="Proyectos" />
             <Proyecto
                 imagen={encriptador}
@@ -39,7 +39,7 @@ const SeccionProyecto = () => {
                 repositorio="https://github.com/FlorenciaOrtega82/org"
                 demo="https://org-xi-sand.vercel.app"
             />
-        </>
+        </section>
     );
 };
 

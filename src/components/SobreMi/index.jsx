@@ -1,9 +1,10 @@
 import LinkRedes from "./LinkRedes";
 import styles from "./SobreMi.module.css";
+import curriculum from "./image/curriculum.pdf";
 
 const SobreMi = () => {
     return (
-        <>
+        <section id="sobremi">
             <p className={styles.presentacion}>
                 Hola! Mi nombre es{" "}
                 <span className={styles.nombre}>Florencia</span>
@@ -13,11 +14,18 @@ const SobreMi = () => {
                 web cautivadoras. Experta en HTML, CSS, JavaScript y React, en
                 busca de proyectos desafiantes.
             </p>
-            {/* //TODO Añadir links a las distintas redes sociales  */}
-            <LinkRedes red="Github" />
-            <LinkRedes red="Linkedin" />
-            <LinkRedes red="Curriculum" />
-        </>
+
+            <LinkRedes
+                red="Github"
+                link="https://github.com/FlorenciaOrtega82"
+            />
+            <LinkRedes
+                red="Linkedin"
+                link="https://www.linkedin.com/in/flor-ortega/"
+            />
+
+            <LinkRedes red="Curriculum" link={curriculum} />
+        </section>
     );
 };
 

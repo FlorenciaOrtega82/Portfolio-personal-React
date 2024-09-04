@@ -8,7 +8,7 @@ import react from "./bxl-react.svg";
 
 const SeccionSkills = () => {
     return (
-        <>
+        <section id="skills">
             <Titulo titulo="Skills" />
             <div className={styles.icono__container}>
                 <img src={html} />
@@ -17,7 +17,7 @@ const SeccionSkills = () => {
                 <img src={react} />
                 <img src={github} />
             </div>
-        </>
+        </section>
     );
 };
 

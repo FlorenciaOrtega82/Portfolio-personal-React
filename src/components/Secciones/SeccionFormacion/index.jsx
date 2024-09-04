@@ -4,7 +4,7 @@ import Formacion from "./Formacion";
 
 const SeccionFormacion = () => {
     return (
-        <>
+        <section id="formación">
             <Titulo titulo="Formación académica" />
             <div className={styles.formacion__container}>
                 <Formacion
@@ -23,7 +23,7 @@ const SeccionFormacion = () => {
                     año="2022"
                 />
             </div>
-        </>
+        </section>
     );
 };
 

@@ -6,7 +6,6 @@ const Formacion = ({ establecimiento, titulo, año }) => {
         <>
             <p className={styles.titulo}>
                 <img className={styles.container__icon} src={link} />
-                {/* //TODO Añadir links con los distintos diplomas*/}
                 <span className={styles.establecimiento}>
                     {establecimiento} -
                 </span>

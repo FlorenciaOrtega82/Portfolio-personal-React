@@ -77,7 +77,7 @@ const Contacto = () => {
     };
 
     return (
-        <>
+        <section id="contacto">
             <div className={styles.container__presentacion}>
                 <div className={styles.text__container}>
                     <h2>Contacto</h2>
@@ -157,7 +157,7 @@ const Contacto = () => {
                     </form>
                 </div>
             </div>
-        </>
+        </section>
     );
 };
 
