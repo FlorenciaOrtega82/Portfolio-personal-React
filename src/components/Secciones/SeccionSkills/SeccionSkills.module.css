@@ -6,9 +6,15 @@
     flex-direction: row;
 }
 
-.icono__container img{
+.icono__container img {
     background: rgba(105, 90, 138, 0.245);
     border-radius: 7px;
     padding: 7px;
     width: 6rem;
+}
+
+@media (max-width: 480px) {
+    .icono__container img {
+        width: 4rem;
+    }
 }

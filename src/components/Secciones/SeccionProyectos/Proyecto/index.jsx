@@ -1,6 +1,5 @@
 import styles from "./Proyecto.module.css";
 
-
 const Proyecto = ({
     imagen,
     tituloProyecto,
@@ -10,7 +9,6 @@ const Proyecto = ({
 }) => {
     return (
         <>
-            
             <div className={styles.proyecto__container}>
                 <img src={imagen} className={styles.proyecto__miniatura} />
                 <div className={styles.container__contenido}>
@@ -20,14 +18,18 @@ const Proyecto = ({
                     <p className={styles.proyecto__descripcion}>
                         {descripcion}
                     </p>
-                    <a href={repositorio} target="_blank">
-                        <button className={styles.boton__repositorio}>
-                            Repositorio
-                        </button>
-                    </a>
-                    <a href={demo} target="_blank">
-                        <button className={styles.boton__demo}>Ver demo</button>
-                    </a>
+                    <div>
+                        <a href={repositorio} target="_blank">
+                            <button className={styles.boton__repositorio}>
+                                Repositorio
+                            </button>
+                        </a>
+                        <a href={demo} target="_blank">
+                            <button className={styles.boton__demo}>
+                                Ver demo
+                            </button>
+                        </a>
+                    </div>
                 </div>
             </div>
         </>

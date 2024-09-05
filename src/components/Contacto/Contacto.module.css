@@ -58,3 +58,33 @@
     outline: none;
     color: #383838;
 }
+
+@media (max-width: 768px) {
+    .container__presentacion p {
+        padding: 0 2.5rem 0 1rem;
+    }
+
+    .container__presentacion h2 {
+        padding-left: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .container__presentacion p {
+        font-size: 16px;
+    }
+
+    .container__presentacion h2 {
+        font-size: 20px;
+    }
+
+    .entrada input {
+        font-size: 16px;
+    }
+
+    .button__enviar {
+        font-size: 16px;
+        font-weight: 600;
+        letter-spacing: 1px;
+    }
+}

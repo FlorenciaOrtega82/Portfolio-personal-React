@@ -5,3 +5,9 @@
     padding: 1rem;
     padding-top: 2rem;
 }
+
+@media (max-width: 480px) {
+    .container__navbar {
+        padding: 1.5rem 0;
+    }
+}
