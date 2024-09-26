@@ -93,10 +93,11 @@ const Contacto = () => {
                     {isSent && <p>¡Mensaje enviado exitosamente!</p>}
                     <form onSubmit={handleSubmit}>
                         <div className={styles.entrada}>
-                            <label>Nombre:</label>
+                            <label for="name">Nombre:</label>
                             <input
                                 type="text"
                                 name="name"
+                                id="name"
                                 value={formData.name}
                                 onChange={handleChange}
                             />
@@ -113,10 +114,11 @@ const Contacto = () => {
                         </div>
 
                         <div className={styles.entrada}>
-                            <label>Email:</label>
+                            <label for="email">Email:</label>
                             <input
                                 type="email"
                                 name="email"
+                                id="email"
                                 value={formData.email}
                                 onChange={handleChange}
                             />
@@ -133,10 +135,11 @@ const Contacto = () => {
                         </div>
 
                         <div className={styles.entrada}>
-                            <label>Mensaje:</label>
+                            <label for="message">Mensaje:</label>
                             <input
                                 type="text"
                                 name="message"
+                                id="message"
                                 value={formData.message}
                                 onChange={handleChange}
                             />
