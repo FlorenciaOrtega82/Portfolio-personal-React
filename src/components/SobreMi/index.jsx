@@ -24,7 +24,7 @@ const SobreMi = () => {
                 link="https://www.linkedin.com/in/flor-ortega/"
             />
 
-            <LinkRedes red="Curriculum" link={curriculum} />
+            <LinkRedes red="Curriculum" link={curriculum} alt='curriculum' />
         </section>
     );
 };
