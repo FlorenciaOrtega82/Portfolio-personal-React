@@ -5,7 +5,11 @@ const Formacion = ({ establecimiento, titulo, año }) => {
     return (
         <>
             <p className={styles.titulo}>
-                <img className={styles.container__icon} src={link} />
+                <img
+                    className={styles.container__icon}
+                    src={link}
+                    alt="Icono link"
+                />
                 <span className={styles.establecimiento}>
                     {establecimiento} -
                 </span>

@@ -11,7 +11,6 @@ const SeccionProyecto = () => {
             <Titulo titulo="Proyectos" />
             <Proyecto
                 imagen={encriptador}
-                alt='Miniatura encriptador de texto'
                 tituloProyecto="Encriptador de Texto"
                 descripcion="
                     Este proyecto es una aplicación web que permite encriptar y desencriptar texto usando reglas específicas, demostrando conceptos básicos de cifrado. "
@@ -21,7 +20,6 @@ const SeccionProyecto = () => {
 
             <Proyecto
                 imagen={aluraFlix}
-                alt='Miniatura aluraFlix'
                 tituloProyecto="Alura Flix"
                 descripcion="AluraFlix es un challenge de Alura. Es un CRUD que utiliza una API para gestionar videos organizados por categorías."
                 repositorio="https://github.com/FlorenciaOrtega82/AluraFlix"
@@ -29,7 +27,6 @@ const SeccionProyecto = () => {
             />
             <Proyecto
                 imagen={spaceApp}
-                alt='Miniatura spaceApp'
                 tituloProyecto="Space-app"
                 descripcion="Este proyecto es una aplicación web que muestra información sobre el espacio, permitiendo a los usuarios explorar datos sobre planetas, estrellas y otros cuerpos celestes a través de una interfaz interactiva."
                 repositorio="https://space-app-taupe-eight.vercel.app"
@@ -37,7 +34,6 @@ const SeccionProyecto = () => {
             />
             <Proyecto
                 imagen={org}
-                alt='Miniatura proyecto org'
                 tituloProyecto="Org"
                 descripcion="Aplicación desarrollada en React que organiza tareas utilizando un sistema de listas. Ofrece la posibilidad de agregar, editar y eliminar elementos, lo que facilita la gestión de tareas diarias de manera estructurada y eficiente."
                 repositorio="https://github.com/FlorenciaOrtega82/org"

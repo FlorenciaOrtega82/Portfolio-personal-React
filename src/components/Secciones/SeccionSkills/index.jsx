@@ -11,11 +11,11 @@ const SeccionSkills = () => {
         <section id="skills">
             <Titulo titulo="Skills" />
             <div className={styles.icono__container}>
-                <img src={html} />
-                <img src={css} />
-                <img src={js} />
-                <img src={react} />
-                <img src={github} />
+                <img src={html} alt="Icono HTML" />
+                <img src={css} alt="Icono CSS" />
+                <img src={js} alt="Icono Javascript" />
+                <img src={react} alt="Icono React JS" />
+                <img src={github} alt="Icono Github" />
             </div>
         </section>
     );

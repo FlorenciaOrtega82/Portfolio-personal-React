@@ -10,7 +10,7 @@ const Proyecto = ({
     return (
         <>
             <div className={styles.proyecto__container}>
-                <img src={imagen} className={styles.proyecto__miniatura} />
+                <img src={imagen} className={styles.proyecto__miniatura} alt='Miniatura de proyecto'/>
                 <div className={styles.container__contenido}>
                     <h4 className={styles.proyecto__titulo}>
                         {tituloProyecto}
