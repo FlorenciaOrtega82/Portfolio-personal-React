@@ -1,9 +1,8 @@
 import LinkInicio from "./LinkInicio";
-import styles from "./Navbar.module.css";
 
 const Navbar = () => {
     return (
-        <div className={styles.container__navbar}>
+        <div className="flex justify-evenly max-2xl:px-24 pt-8 p-4 max-sm:pt-6 ">
             <LinkInicio seccion="Sobre mi" />
             <LinkInicio seccion="Skills" />
             <LinkInicio seccion="Formación" />

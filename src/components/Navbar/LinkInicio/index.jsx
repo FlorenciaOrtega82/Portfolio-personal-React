@@ -1,5 +1,4 @@
 import { Link } from "react-scroll";
-import styles from "./LinkInicio.module.css";
 
 const LinkInicio = ({ seccion }) => {
     return (
@@ -7,9 +6,9 @@ const LinkInicio = ({ seccion }) => {
             to={seccion.toLowerCase().replace(" ", "")}
             smooth={true}
             duration={500}
-            className={styles.link}
+            className='text-base tracking-wider font-bold cursor-pointer hover:text-violet-800 max-sm:text-xs max-sm:tracking-normal max-sm:font-semibold'
             spy={true}
-            activeClass={styles.activeLink}
+
         >
             {seccion}
         </Link>
