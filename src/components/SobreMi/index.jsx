@@ -1,15 +1,14 @@
 import LinkRedes from "./LinkRedes";
-import styles from "./SobreMi.module.css";
 import curriculum from "./image/curriculum.pdf";
 
 const SobreMi = () => {
     return (
         <section id="sobremi">
-            <p className={styles.presentacion}>
+            <p className='mb-4 text-3xl font-bold max-sm:text-2xl'>
                 Hola! Mi nombre es{" "}
-                <span className={styles.nombre}>Florencia</span>
+                <span className='text-violet-800'>Florencia</span>
             </p>
-            <p className={styles.info__text}>
+            <p className='text-lg max-sm:text-base'>
                 Soy desarrolladora front end apasionada por crear experiencias
                 web cautivadoras. Experta en HTML, CSS, JavaScript y React, en
                 busca de proyectos desafiantes.
