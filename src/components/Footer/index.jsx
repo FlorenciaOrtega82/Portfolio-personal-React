@@ -1,9 +1,8 @@
-import styles from "./Footer.module.css";
 
 const Footer = () => {
     return (
-        <div className={styles.container__footer}>
-            <p className={styles.parrafo__footer}>Florencia Ortega - 2024</p>
+        <div className='flex justify-end border-black border-t-[1px] mt-10 mx-2 mb-4'>
+            <p className='text-base m-2'>Florencia Ortega - 2024</p>
         </div>
     );
 };

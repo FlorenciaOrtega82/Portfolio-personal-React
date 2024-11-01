@@ -7,7 +7,7 @@ import org from "./image/org-app.png";
 
 const SeccionProyecto = () => {
     return (
-        <section id="proyectos">
+        <section id="proyectos" className="pt-10 -mt-10">
             <Titulo titulo="Proyectos" />
             <Proyecto
                 imagen={encriptador}

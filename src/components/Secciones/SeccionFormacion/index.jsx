@@ -3,7 +3,7 @@ import Formacion from "./Formacion";
 
 const SeccionFormacion = () => {
     return (
-        <section id="formación">
+        <section id="formación" className='pt-10 -mt-10'>
             <Titulo titulo="Formación académica" />
             <div className='flex justify-around flex-col '>
                 <Formacion

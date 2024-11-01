@@ -8,7 +8,7 @@ import Vite from "./svg-vite";
 
 const SeccionSkills = () => {
     return (
-        <section id="skills">
+        <section id="skills" className='pt-10 -mt-10'>
             <Titulo titulo="Skills" />
             <div className="flex justify-center items-center flex-row gap-12 max-sm:w-16">
                 <img
