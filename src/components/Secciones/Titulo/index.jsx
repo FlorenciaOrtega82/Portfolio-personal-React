@@ -1,9 +1,8 @@
-import styles from "./Titulo.module.css";
 
 const Titulo = ({ titulo }) => {
     return (
         <>
-            <h2 className={styles.titulo}>{titulo}</h2>
+            <h2 className='text-stone-950 text-center tracking-wide text-xl font-bold pt-9 pb-5'>{titulo}</h2>
         </>
     );
 };
