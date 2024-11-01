@@ -18,7 +18,7 @@ const Proyecto = ({
                         {tituloProyecto}
                     </h4>
 
-                    <div className="flex flex-row gap-2 my-2">
+                    <div className="flex flex-wrap gap-2 my-2">
                         {tecnologias.map((tecnologia) => (
                             <span className="bg-violet-300 text-gray-800 px-2 py-1 rounded-md text-sm font-bold tracking-wide">
                                 {tecnologia}
@@ -26,9 +26,9 @@ const Proyecto = ({
                         ))}
                     </div>
 
-                    <div>
+                    <div className="max-sm:justify-center max-sm:flex max-sm:gap-5">
                         <a href={repositorio} target="_blank">
-                            <button className="cursor-pointer py-1 px-2 rounded-sm font-medium mr-1 border-2  border-violet-900 text-violet-900  hover:text-violet-950 hover:border-1 hover:bg-violet-300">
+                            <button className="cursor-pointer py-1 px-2 rounded-sm font-medium mr-1 border-2  fy-center border-violet-900 text-violet-900  hover:text-violet-950 hover:border-1 hover:bg-violet-300">
                                 Repositorio
                             </button>
                         </a>
