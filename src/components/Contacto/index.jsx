@@ -1,5 +1,4 @@
 import { useState } from "react";
-import styles from "./Contacto.module.css";
 import emailjs from "emailjs-com";
 
 const Contacto = () => {
@@ -78,28 +77,35 @@ const Contacto = () => {
 
     return (
         <section id="contacto">
-            <div className={styles.container__presentacion}>
-                <div className={styles.text__container}>
-                    <h2>Contacto</h2>
-                    <p>
-                        <span>¿Quieres contactarme?</span>
+            <div className="bg-violet-200 text-justify rounded-lg mt-12 text-zinc-900 ">
+                <div className="text-zinc-900 pt-7 pl-4 text-xl pb-1">
+                    <p className="max-md:px-6 max-sm:text-base">
+                        <span className="text-violet-600">
+                            ¿Quieres contactarme?
+                        </span>
                         <br />
                         Complete el siguiente formulario y me pondré en contacto
                         con usted lo antes posible.
                     </p>
                 </div>
 
-                <div className={styles.form__container}>
+                <div className="text-center mx-12">
                     {isSent && <p>¡Mensaje enviado exitosamente!</p>}
                     <form onSubmit={handleSubmit}>
-                        <div className={styles.entrada}>
-                            <label for="name">Nombre:</label>
+                        <div>
+                            <label
+                                for="name"
+                                className="text-violet-500 flex mb-1 pt-5"
+                            >
+                                Nombre:
+                            </label>
                             <input
                                 type="text"
                                 name="name"
                                 id="name"
                                 value={formData.name}
                                 onChange={handleChange}
+                                className="w-full bg-transparent  border-b-[1px] text-xl outline-none text-zinc-800 border-b-solid border-violet-500 max-sm:text-base"
                             />
                             {errors.name && (
                                 <p
@@ -113,14 +119,20 @@ const Contacto = () => {
                             )}
                         </div>
 
-                        <div className={styles.entrada}>
-                            <label for="email">Email:</label>
+                        <div>
+                            <label
+                                for="email"
+                                className="text-violet-500 flex mb-1 pt-5"
+                            >
+                                Email:
+                            </label>
                             <input
                                 type="email"
                                 name="email"
                                 id="email"
                                 value={formData.email}
                                 onChange={handleChange}
+                                className="w-full bg-transparent  border-b-[1px] text-xl outline-none text-zinc-800 border-b-solid border-violet-500 max-sm:text-base"
                             />
                             {errors.email && (
                                 <p
@@ -134,14 +146,20 @@ const Contacto = () => {
                             )}
                         </div>
 
-                        <div className={styles.entrada}>
-                            <label for="message">Mensaje:</label>
+                        <div>
+                            <label
+                                for="message"
+                                className="text-violet-500 flex mb-1 pt-5"
+                            >
+                                Mensaje:
+                            </label>
                             <input
                                 type="text"
                                 name="message"
                                 id="message"
                                 value={formData.message}
                                 onChange={handleChange}
+                                className="w-full bg-transparent  border-b-[1px] text-xl outline-none text-zinc-800 border-b-solid border-violet-500 max-sm:text-base"
                             />
                             {errors.message && (
                                 <p style={{ color: "red", fontSize: "16px" }}>
@@ -153,7 +171,7 @@ const Contacto = () => {
                         <button
                             type="submit"
                             disabled={isSubmitting}
-                            className={styles.button__enviar}
+                            className="bg-violet-500 text-white border-none leading-10 text-lg tracking-widest cursor-pointer font-extrabold rounded-lg shadow-sm w-4/6 my-7 hover:bg-violet-600 max-sm:text-base max-sm:font-medium max-sm:tracking-widest max-sm:py-2 max-sm:px-1"
                         >
                             {isSubmitting ? "Enviando..." : "Enviar Mensaje"}
                         </button>
