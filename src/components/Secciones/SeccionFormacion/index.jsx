@@ -3,9 +3,9 @@ import Formacion from "./Formacion";
 
 const SeccionFormacion = () => {
     return (
-        <section id="formación" className='pt-10 -mt-10'>
+        <section id="formación" className="pt-10 -mt-10 ">
             <Titulo titulo="Formación académica" />
-            <div className='flex justify-around flex-col '>
+            <div className="flex justify-around flex-col ">
                 <Formacion
                     establecimiento="Programa ONE"
                     titulo="Front End React "
@@ -13,7 +13,7 @@ const SeccionFormacion = () => {
                 />
                 <Formacion
                     establecimiento="UTN"
-                    titulo="Técnico superior en programación"
+                    titulo="Técnico superior en programación "
                     año="2023"
                 />
                 <Formacion

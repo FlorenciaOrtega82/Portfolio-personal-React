@@ -10,7 +10,7 @@ const SeccionSkills = () => {
     return (
         <section id="skills" className='pt-10 -mt-10'>
             <Titulo titulo="Skills" />
-            <div className="flex justify-center items-center flex-row gap-12 max-sm:w-16">
+            <div className="flex justify-center items-center flex-row gap-12 max-sm:flex-wrap ">
                 <img
                     src={html}
                     alt="Icono HTML"

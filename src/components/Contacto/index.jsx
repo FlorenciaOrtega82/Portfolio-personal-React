@@ -77,8 +77,8 @@ const Contacto = () => {
 
     return (
         <section id="contacto">
-            <div className="bg-violet-200 text-justify rounded-lg mt-12 text-zinc-900 ">
-                <div className="text-zinc-900 pt-7 pl-4 text-xl pb-1">
+            <div className="bg-violet-200  rounded-lg mt-12 text-zinc-900   ">
+                <div className="text-zinc-900 pt-7 pl-4 text-xl pb-1 max-sm:pl-0">
                     <p className="max-md:px-6 max-sm:text-base">
                         <span className="text-violet-600">
                             ¿Quieres contactarme?
@@ -89,7 +89,7 @@ const Contacto = () => {
                     </p>
                 </div>
 
-                <div className="text-center mx-12">
+                <div className="text-center mx-12 max-sm:mx-5">
                     {isSent && <p>¡Mensaje enviado exitosamente!</p>}
                     <form onSubmit={handleSubmit}>
                         <div>
@@ -171,7 +171,7 @@ const Contacto = () => {
                         <button
                             type="submit"
                             disabled={isSubmitting}
-                            className="bg-violet-500 text-white border-none leading-10 text-lg tracking-widest cursor-pointer font-extrabold rounded-lg shadow-sm w-4/6 my-7 hover:bg-violet-600 max-sm:text-base max-sm:font-medium max-sm:tracking-widest max-sm:py-2 max-sm:px-1"
+                            className="bg-violet-500 text-white border-none leading-10 text-lg tracking-widest cursor-pointer font-extrabold rounded-lg shadow-sm w-4/6 my-7 hover:bg-violet-600 max-sm:text-base max-sm:font-medium max-sm:tracking-widest max-sm:py-2 max-sm:px-1 max-sm:w-5/6 "
                         >
                             {isSubmitting ? "Enviando..." : "Enviar Mensaje"}
                         </button>
