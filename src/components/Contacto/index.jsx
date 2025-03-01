@@ -77,12 +77,10 @@ const Contacto = () => {
 
     return (
         <section id="contacto">
-            <div className="bg-violet-200  rounded-lg mt-12 text-zinc-900   ">
-                <div className="text-zinc-900 pt-7 pl-4 text-xl pb-1 max-sm:pl-0">
+            <div className="  rounded-lg mt-12 border border-hoverColor ">
+                <div className="text-primary pt-7 pl-4 text-xl pb-1 max-sm:pl-0">
                     <p className="max-md:px-6 max-sm:text-base">
-                        <span className="text-violet-600">
-                            ¿Quieres contactarme?
-                        </span>
+                        <span>¿Quieres contactarme?</span>
                         <br />
                         Complete el siguiente formulario y me pondré en contacto
                         con usted lo antes posible.
@@ -95,7 +93,7 @@ const Contacto = () => {
                         <div>
                             <label
                                 for="name"
-                                className="text-violet-500 flex mb-1 pt-5"
+                                className="text-hoverColor flex mb-1 pt-5"
                             >
                                 Nombre:
                             </label>
@@ -105,7 +103,7 @@ const Contacto = () => {
                                 id="name"
                                 value={formData.name}
                                 onChange={handleChange}
-                                className="w-full bg-transparent  border-b-[1px] text-xl outline-none text-zinc-800 border-b-solid border-violet-500 max-sm:text-base"
+                                className="w-full bg-background border-b-[1px] text-xl outline-none text-primary border-b-solid border-secondaryHover max-sm:text-base"
                             />
                             {errors.name && (
                                 <p
@@ -122,7 +120,7 @@ const Contacto = () => {
                         <div>
                             <label
                                 for="email"
-                                className="text-violet-500 flex mb-1 pt-5"
+                                className="text-hoverColor flex mb-1 pt-5"
                             >
                                 Email:
                             </label>
@@ -132,7 +130,7 @@ const Contacto = () => {
                                 id="email"
                                 value={formData.email}
                                 onChange={handleChange}
-                                className="w-full bg-transparent  border-b-[1px] text-xl outline-none text-zinc-800 border-b-solid border-violet-500 max-sm:text-base"
+                                className="w-full bg-background  border-b-[1px] text-xl outline-none text-primary border-b-solid border-secondaryHover max-sm:text-base"
                             />
                             {errors.email && (
                                 <p
@@ -149,7 +147,7 @@ const Contacto = () => {
                         <div>
                             <label
                                 for="message"
-                                className="text-violet-500 flex mb-1 pt-5"
+                                className="text-hoverColor flex mb-1 pt-5"
                             >
                                 Mensaje:
                             </label>
@@ -159,7 +157,7 @@ const Contacto = () => {
                                 id="message"
                                 value={formData.message}
                                 onChange={handleChange}
-                                className="w-full bg-transparent  border-b-[1px] text-xl outline-none text-zinc-800 border-b-solid border-violet-500 max-sm:text-base"
+                                className="w-full bg-background  border-b-[1px] text-xl outline-none text-primary border-b-solid border-secondaryHover max-sm:text-base"
                             />
                             {errors.message && (
                                 <p style={{ color: "red", fontSize: "16px" }}>
@@ -171,7 +169,7 @@ const Contacto = () => {
                         <button
                             type="submit"
                             disabled={isSubmitting}
-                            className="bg-violet-500 text-white border-none leading-10 text-lg tracking-widest cursor-pointer font-extrabold rounded-lg shadow-sm w-4/6 my-7 hover:bg-violet-600 max-sm:text-base max-sm:font-medium max-sm:tracking-widest max-sm:py-2 max-sm:px-1 max-sm:w-5/6 "
+                            className="bg-secondaryColor text-hoverColor border-none leading-10 text-lg tracking-widest cursor-pointer font-extrabold rounded-lg shadow-sm w-4/6 my-7 hover:bg-secondaryHover max-sm:text-base max-sm:font-medium max-sm:tracking-widest max-sm:py-2 max-sm:px-1 max-sm:w-5/6 "
                         >
                             {isSubmitting ? "Enviando..." : "Enviar Mensaje"}
                         </button>

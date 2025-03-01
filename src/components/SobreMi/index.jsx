@@ -4,11 +4,11 @@ import curriculum from "./image/curriculum.pdf";
 const SobreMi = () => {
     return (
         <section id="sobremi">
-            <p className="mb-4 text-3xl font-bold max-sm:text-2xl">
+            <p className="mb-4 text-primary text-3xl font-bold max-sm:text-2xl">
                 Hola! Mi nombre es{" "}
-                <span className="text-violet-800">Florencia</span>
+                <span className="text-secondaryHover">Florencia</span>
             </p>
-            <p className="text-lg max-sm:text-base">
+            <p className=" text-primary text-lg max-sm:text-base">
                 Soy desarrolladora front end apasionada por crear experiencias
                 web cautivadoras. Experta en HTML, CSS, JavaScript y React, en
                 busca de proyectos desafiantes.

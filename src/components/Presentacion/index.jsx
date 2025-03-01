@@ -3,7 +3,7 @@
 const Presentacion = () => {
     return (
         <>
-            <div  className='bg-violet-200 rounded-sm mt-16 text-stone-950'>
+            <div  className='bg-secondaryHover rounded-sm mt-16 font-semibold text-background'>
                 <h2 className='px-5 py-3 max-sm:text-xl max-sm:font-semibold'>Sobre Mi</h2>
                 <p className='px-5 pb-2 text-lg max-sm:text-base'>
                     Hola! Soy Técnica Universitaria en Programación, apasionada

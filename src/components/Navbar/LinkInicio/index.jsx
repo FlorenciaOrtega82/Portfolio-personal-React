@@ -6,7 +6,7 @@ const LinkInicio = ({ seccion }) => {
             to={seccion.toLowerCase().replace(" ", "")}
             smooth={true}
             duration={500}
-            className='text-base tracking-wider font-bold cursor-pointer hover:text-violet-800 max-sm:text-xs max-sm:tracking-normal max-sm:font-semibold'
+            className='text-primary tracking-wider font-bold cursor-pointer hover:text-hoverColor max-sm:text-xs max-sm:tracking-normal max-sm:font-semibold'
             spy={true}
 
         >
