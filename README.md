@@ -3,7 +3,7 @@
 
 ¡Bienvenido a mi portafolio personal! 🎉
 
-Este proyecto es una aplicación web desarrollada con **React** y **Vite** para mostrar mis habilidades, proyectos y experiencias en el desarrollo de software. Es un espacio donde podrás conocer más sobre mí y mi trabajo.
+Este proyecto es una aplicación web desarrollada con **React** y **Tailwind Css** para mostrar mis habilidades, proyectos y experiencias en el desarrollo de software. Es un espacio donde podrás conocer más sobre mí y mi trabajo.
 
 Link: https://portfolio-personal-psi-gray.vercel.app
 
@@ -11,7 +11,7 @@ Link: https://portfolio-personal-psi-gray.vercel.app
 
 - **React**: Biblioteca de JavaScript para construir interfaces de usuario.
 - **Vite**: Herramienta de desarrollo rápida que permite crear aplicaciones web modernas con un entorno de desarrollo optimizado.
-- **CSS**: Para el diseño y la estilización de la página.
+- **Tailwind Css**: Para el diseño y la estilización de la página.
 - **JavaScript (ES6+)**: Para la lógica de la aplicación.
 
 ## 🛠️ Instalación y Uso
